@@ -188,12 +188,41 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 # draw_bold_text_with_bright_colors: false
 
-# Colors (Tomorrow Night)
-colors:
+# Color Schemes
+schemes:
+  darkside: &darkside
+    # Default colors
+    primary:
+      background: '#222324'
+      foreground: '#BABABA'
+    # Normal colors
+    normal:
+      black:   '#000000'
+      red:     '#E8241C'
+      green:   '#68C256'
+      yellow:  '#F2D42C'
+      blue:    '#1C98E8'
+      magenta: '#8E69C9'
+      cyan:    '#1C98E8'
+      white:   '#BABABA'
+
+    # Bright colors
+    bright:
+      black:   '#666666'
+      red:     '#E05A4F'
+      green:   '#77B869'
+      yellow:  '#EFD64B'
+      blue:    '#387CD3'
+      magenta: '#957BBE'
+      cyan:    '#3D97E2'
+      white:   '#BABABA'
+
+# Colors
+colors: *darkside
   # Default colors
-  primary:
-    background: '#222324'
-    foreground: '#BABABA'
+  #primary:
+    #background: '#222324'
+    #foreground: '#BABABA'
 
     # Bright and dim foreground colors
     #
@@ -280,26 +309,26 @@ colors:
   #  background: CellForeground
 
   # Normal colors
-  normal:
-    black:   '#000000'
-    red:     '#E8241C'
-    green:   '#68C256'
-    yellow:  '#F2D42C'
-    blue:    '#1C98E8'
-    magenta: '#8E69C9'
-    cyan:    '#1C98E8'
-    white:   '#BABABA'
+  #normal:
+    #black:   '#000000'
+    #red:     '#E8241C'
+    #green:   '#68C256'
+    #yellow:  '#F2D42C'
+    #blue:    '#1C98E8'
+    #magenta: '#8E69C9'
+    #cyan:    '#1C98E8'
+    #white:   '#BABABA'
 
   # Bright colors
-  bright:
-    black:   '#666666'
-    red:     '#E05A4F'
-    green:   '#77B869'
-    yellow:  '#EFD64B'
-    blue:    '#387CD3'
-    magenta: '#957BBE'
-    cyan:    '#3D97E2'
-    white:   '#BABABA'
+  #bright:
+    #black:   '#666666'
+    #red:     '#E05A4F'
+    #green:   '#77B869'
+    #yellow:  '#EFD64B'
+    #blue:    '#387CD3'
+    #magenta: '#957BBE'
+    #cyan:    '#3D97E2'
+    #white:   '#BABABA'
 
   # Dim colors
   #
